@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/mvn'
+  args: ['install']
+  timeout: 500s
+tags: ['mytag1', 'mytag2']
